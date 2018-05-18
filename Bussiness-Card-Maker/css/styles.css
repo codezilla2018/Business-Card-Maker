@@ -159,15 +159,15 @@ a img{
   position: relative;
   height: 800px;
   width: auto;
-  background-color: #f3f3f3;
-  background: url('../images/slide01.jpg') center 30% no-repeat;
+  /*background-color: #f3f3f3;*/
+  background: url('../images/banner.jpg') center 30% no-repeat;
   background-size: cover;
 }
 
 .logo-font {
   font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
   line-height: 1;
-  color: #767777;
+  color: #ffffff;
   font-weight: 500;
 }
 

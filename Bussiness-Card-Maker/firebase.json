@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "401694916301",
+    "firebase_url": "https://talktochatapp.firebaseio.com",
+    "project_id": "talktochatapp",
+    "storage_bucket": "talktochatapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401694916301:android:13d2cd4b05ba344b",
+        "android_client_info": {
+          "package_name": "com.chamodshehanka.talkto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "401694916301-2nl5ur7ql6g0m6rca3g3g12kr9jh47hi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD50Fs7CV5WJPUnktraljQ4LrLJ8mHeJGQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

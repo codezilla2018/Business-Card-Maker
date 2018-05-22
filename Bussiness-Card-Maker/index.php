@@ -4,7 +4,33 @@
  * User: chamodshehanka
  * Date: 5/22/2018
  * Time: 11:23 AM
+ *
+ * MIT License
+
+Copyright (c) [2018] [Chamod Shehanka]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Business Card Generator"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
  */
+
+include_once ('cardController.php');
+$getData = new cardController;
+
 ?>
 
 <!doctype html>
@@ -148,10 +174,9 @@
         <div class="android-wear-section">
             <div class="android-wear-band">
                 <div class="android-wear-band-text">
-                    <div class="mdl-typography--display-2 mdl-typography--font-thin">The best of Google built in</div>
+                    <div class="mdl-typography--display-2 mdl-typography--font-thin"></div>
                     <p class="mdl-typography--headline mdl-typography--font-thin">
-                        Android works perfectly with your favourite apps like Google Maps,
-                        Calendar and YouTube.
+
                     </p>
                 </div>
             </div>
@@ -159,11 +184,6 @@
         <div class="android-customized-section">
             <div class="android-customized-section-text">
                 <div class="mdl-typography--font-light mdl-typography--display-1-color-contrast">Customised by you, for you</div>
-                <p class="mdl-typography--font-light">
-                    Put the stuff that you care about right on your home screen: the latest news, the weather or a stream of your recent photos.
-                    <br>
-                    <a href="" class="android-link mdl-typography--font-light">Customise your phone</a>
-                </p>
             </div>
             <div class="android-customized-section-image"></div>
         </div>
@@ -186,38 +206,28 @@
             </div>
 
             <div class="mdl-mega-footer--middle-section">
-                <p class="mdl-typography--font-light">Satellite imagery: © 2014 Astrium, DigitalGlobe</p>
-                <p class="mdl-typography--font-light">Some features and devices may not be available in all areas</p>
             </div>
 
-            <div class="mdl-mega-footer--bottom-section">
-                <a class="android-link android-link-menu mdl-typography--font-light" id="version-dropdown">
-                    Versions
-                    <i class="material-icons">arrow_drop_up</i>
-                </a>
-                <ul class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect" for="version-dropdown">
-                    <li class="mdl-menu__item">5.0 Lollipop</li>
-                    <li class="mdl-menu__item">4.4 KitKat</li>
-                    <li class="mdl-menu__item">4.3 Jelly Bean</li>
-                    <li class="mdl-menu__item">Android History</li>
-                </ul>
-                <a class="android-link android-link-menu mdl-typography--font-light" id="developers-dropdown">
-                    For Developers
-                    <i class="material-icons">arrow_drop_up</i>
-                </a>
-                <ul class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect" for="developers-dropdown">
-                    <li class="mdl-menu__item">App developer resources</li>
-                    <li class="mdl-menu__item">Android Open Source Project</li>
-                    <li class="mdl-menu__item">Android SDK</li>
-                    <li class="mdl-menu__item">Android for Work</li>
-                </ul>
-                <a class="android-link mdl-typography--font-light" href="">Blog</a>
-                <a class="android-link mdl-typography--font-light" href="">Privacy Policy</a>
-            </div>
+
 
         </footer>
     </div>
 </div>
+
+<script src="https://www.gstatic.com/firebasejs/5.0.3/firebase.js"></script>
+<script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyA_9TDtuG5CYPkKlazpmRhL3izcllzJvuM",
+        authDomain: "bussiness-card-maker-b7c44.firebaseapp.com",
+        databaseURL: "https://bussiness-card-maker-b7c44.firebaseio.com",
+        projectId: "bussiness-card-maker-b7c44",
+        storageBucket: "",
+        messagingSenderId: "118391112889"
+    };
+    firebase.initializeApp(config);
+</script>
+
 <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 </body>
 </html>

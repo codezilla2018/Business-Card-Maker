@@ -4,13 +4,13 @@ This is for Codezilla 2018 Inter University Hackathon
 
 ## Getting Started
 
-1 - First you have to download this repository.
-2- Then you should configure php. because this project has been made with PHP.
-3 - Then you can have to have a user interface by running a index.php 
-4 - After that you can see the form set when you scroll page.
-5 - Then fill those form and click generate button for generete bussiness card. Otherwize if you want to clear all filled values you should click on remove all button.
-6 - Then you can see the generated bussinesss card. You can download it as a .jpg or .png 
-7 - Enjoy the Business Card Maker
+1 - First you have to download this repository.\s
+2- Then you should configure php. because this project has been made with PHP.\s
+3 - Then you can have to have a user interface by running a index.php \s
+4 - After that you can see the form set when you scroll page. \s
+5 - Then fill those form and click generate button for generete bussiness card. Otherwize if you want to clear all filled values you should click on remove all button. \s
+6 - Then you can see the generated bussinesss card. You can download it as a .jpg or .png \s
+7 - Enjoy the Business Card Maker \s
 
 
 End with an example of getting some data out of the system or using it for a little demo

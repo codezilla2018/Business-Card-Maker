@@ -56,4 +56,4 @@ See also the list of [contributors](https://github.com/codezilla2018/Business-Ca
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](Business-Card-Maker/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](Business-Card-Maker/LICENSE.md) file for details

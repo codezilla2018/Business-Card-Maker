@@ -26,7 +26,7 @@
       <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
         <div class="mdl-layout__header-row">
           <span class="android-title mdl-layout-title">
-            <img class="android-logo-image" src="images/android-logo.png">
+            <!--<img class="android-logo-image" src="images/android-logo.png">-->
           </span>
           <!-- Add spacer, to align navigation to the right in desktop -->
           <div class="android-header-spacer mdl-layout-spacer"></div>
@@ -87,42 +87,43 @@
         <div class="android-screen-section mdl-typography--text-center">
           <a name="screens"></a>
           <div class="mdl-typography--display-1-color-contrast">Input your business details</div>
+          <br>
 
-          <div class="uk-tile-default">
+          <!--Form Set-->
+
+          <div class="uk-grid-small uk-child-width-expand@s uk-text-center"  uk-grid>
             <form>
               <fieldset class="uk-fieldset">
                 <div class="uk-margin">
-                  <input class="uk-input" type="text" placeholder="Input">
+                  <input class="uk-input" type="text" placeholder="Name">
                 </div>
 
                 <div class="uk-margin">
-                  <select class="uk-select">
-                    <option>Option 01</option>
-                    <option>Option 02</option>
-                  </select>
+                  <input class="uk-input" type="text" placeholder="Job Title">
                 </div>
 
                 <div class="uk-margin">
-                  <textarea class="uk-textarea" rows="5" placeholder="Textarea"></textarea>
-                </div>
-
-                <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
-                  <label><input class="uk-radio" type="radio" name="radio2" checked> A</label>
-                  <label><input class="uk-radio" type="radio" name="radio2"> B</label>
-                </div>
-
-                <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
-                  <label><input class="uk-checkbox" type="checkbox" checked> A</label>
-                  <label><input class="uk-checkbox" type="checkbox"> B</label>
+                  <textarea class = "uk-textarea" rows = "5" placeholder="Address"></textarea>
                 </div>
 
                 <div class="uk-margin">
-                  <input class="uk-range" type="range" value="2" min="0" max="10" step="0.1">
+                  <input class="uk-input" type="text" placeholder="Telephone">
+                </div>
+
+                <div class="uk-margin">
+                  <input class="uk-input" type="text" placeholder="Email Address">
+                </div>
+
+                <div class="uk-margin" style="float: right">
+                  <button id="btn-generate" class="uk-button uk-button-primary">Generate</button>
+                  <button id="btn-clear-all" class="uk-button uk-button-secondary">Clear All</button>
                 </div>
 
               </fieldset>
             </form>
           </div>
+
+          <!--End Form Set-->
 
         </div>
         <div class="android-wear-section">

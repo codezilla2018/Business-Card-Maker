@@ -14,8 +14,9 @@
     <link rel="stylesheet" href="css/styles.css">
 
     <!--UI Kit-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.xx.x/css/uikit.min.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.xx.x/js/uikit.min.js"></script>
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
     <!--End UI Kit-->
 
   </head>
@@ -87,10 +88,39 @@
           <a name="screens"></a>
           <div class="mdl-typography--display-1-color-contrast">Input your business details</div>
 
-          <div>
-            <form class="uk-form">
-              <input type="radio">
-              <input type="checkbox">
+          <div class="uk-tile-default">
+            <form>
+              <fieldset class="uk-fieldset">
+                <div class="uk-margin">
+                  <input class="uk-input" type="text" placeholder="Input">
+                </div>
+
+                <div class="uk-margin">
+                  <select class="uk-select">
+                    <option>Option 01</option>
+                    <option>Option 02</option>
+                  </select>
+                </div>
+
+                <div class="uk-margin">
+                  <textarea class="uk-textarea" rows="5" placeholder="Textarea"></textarea>
+                </div>
+
+                <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
+                  <label><input class="uk-radio" type="radio" name="radio2" checked> A</label>
+                  <label><input class="uk-radio" type="radio" name="radio2"> B</label>
+                </div>
+
+                <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
+                  <label><input class="uk-checkbox" type="checkbox" checked> A</label>
+                  <label><input class="uk-checkbox" type="checkbox"> B</label>
+                </div>
+
+                <div class="uk-margin">
+                  <input class="uk-range" type="range" value="2" min="0" max="10" step="0.1">
+                </div>
+
+              </fieldset>
             </form>
           </div>
 

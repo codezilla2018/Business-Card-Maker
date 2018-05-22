@@ -23,21 +23,16 @@ End with an example of getting some data out of the system or using it for a lit
 
 
 
-```
-Give an example
-```
+
 
 ### And coding style tests
 
 
 
-```
-Give an example
-```
 
 ## Deployment
 
-Doenload this
+Download this
 
 ## Built With
 

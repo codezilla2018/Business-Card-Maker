@@ -23,7 +23,7 @@ class CardController{
 
         $im = @imagecreate(300, 150); //creates an image
         $background_color = imagecolorallocate($im, 255,255,255); //sets image background color
-        $y=15; //vertical position of text
+        $y = 15; //vertical position of text
         foreach($arrText as $arr){
             $textclr=imagecolorallocate($im,0,0,0); //sets text color
             imagestring($im,5,15,$y,trim($arr),$textclr); //create the text string for image,added trim() to remove unwanted chars

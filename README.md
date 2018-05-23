@@ -2,6 +2,11 @@
 hcsperera@gmail.com Chamod Perera Shehanka IA0.
 This is for Codezilla 2018 Inter University Hackathon
 
+[![official JetBrains project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
+![PHP Storm](https://img.shields.io/badge/PHP%20Storm-2018.1.1-9a12b3.svg)
+![JetBrains Plugins](https://img.shields.io/jetbrains/plugin/v/9630-a8translate.svg)
+![npm](https://img.shields.io/npm/l/express.svg)
+
 ## Getting Started
 
 1 - First you have to download this repository. &nbsp; \

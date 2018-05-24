@@ -3,9 +3,9 @@ hcsperera@gmail.com Chamod Shehanka Perera IA0.
 This is for Codezilla 2018 Inter University Hackathon
 
 [![official JetBrains project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
-![PHP Storm](https://img.shields.io/badge/PHP%20Storm-2018.1.1-9a12b3.svg)
-![JetBrains Plugins](https://img.shields.io/jetbrains/plugin/v/9630-a8translate.svg)
-![npm](https://img.shields.io/npm/l/express.svg)
+[![PHP Storm](https://img.shields.io/badge/PHP%20Storm-2018.1.1-9a12b3.svg)](https://www.jetbrains.com/phpstorm/)
+[![JetBrains Plugins](https://img.shields.io/jetbrains/plugin/v/9630-a8translate.svg)](https://plugins.jetbrains.com/)
+[![npm](https://img.shields.io/npm/l/express.svg)](https://opensource.org/licenses/MIT)
 
 ## Getting Started
 
@@ -45,7 +45,7 @@ Download this
 
 ## Contributing
 
-* **Chamod Shehanka** - *Developed* - [Shehanka](https://github.com/Shehanka) 
+* **Chamod Shehanka** - *Developer* - [Shehanka](https://github.com/Shehanka) 
 [Website](http://www.chamodshehanka.com)
 
 See also the list of [contributors](https://github.com/codezilla2018/Business-Card-Maker/graphs/contributors) who participated in this project.
@@ -56,7 +56,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Chamod Shehanka** - *Developed* - [Shehanka](https://github.com/Shehanka)
+* **Chamod Shehanka** - *Developer* - [Shehanka](https://github.com/Shehanka)
 
 See also the list of [contributors](https://github.com/codezilla2018/Business-Card-Maker/graphs/contributors) who participated in this project.
 

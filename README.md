@@ -1,5 +1,5 @@
 # Business Card Maker
-hcsperera@gmail.com Chamod Perera Shehanka IA0.
+hcsperera@gmail.com Chamod Shehanka Perera IA0.
 This is for Codezilla 2018 Inter University Hackathon
 
 [![official JetBrains project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
@@ -45,7 +45,8 @@ Download this
 
 ## Contributing
 
-* **Chamod Shehanka** - *Developed* - [Shehanka](https://github.com/Shehanka)
+* **Chamod Shehanka** - *Developed* - [Shehanka](https://github.com/Shehanka) 
+[Website](http://www.chamodshehanka.com)
 
 See also the list of [contributors](https://github.com/codezilla2018/Business-Card-Maker/graphs/contributors) who participated in this project.
 
